@@ -1,0 +1,89 @@
+[
+  {
+    "id": "Slot001",
+    "label": "Car",
+    "isPartOf": null,
+    "ports": []
+  },
+  {
+    "id": "Slot002",
+    "label": "Power train",
+    "isPartOf": "Module001",
+    "ports": [
+      "Node001",
+      "Node003"
+    ]
+  },
+  {
+    "id": "Slot003",
+    "label": "Electric System",
+    "isPartOf": "Module001",
+    "ports": [
+      "Node002",
+      "Node005"
+    ]
+  },
+  {
+    "id": "Slot004",
+    "label": "Dashboard",
+    "isPartOf": "Module001",
+    "ports": [
+      "Node004",
+      "Node006"
+    ]
+  },
+  {
+    "id": "Slot005",
+    "label": "Transmission",
+    "isPartOf": "Module002",
+    "ports": []
+  },
+  {
+    "id": "Slot006",
+    "label": "Engine",
+    "isPartOf": "Module002",
+    "ports": []
+  },
+  {
+    "id": "Slot007",
+    "label": "Starter engine",
+    "isPartOf": "Module003",
+    "ports": ["Node007"]
+  },
+  {
+    "id": "Slot008",
+    "label": "Battery",
+    "isPartOf": "Module003",
+    "ports": []
+  },
+  {
+    "id": "Slot009",
+    "label": "Headlight",
+    "isPartOf": "Module003",
+    "ports": []
+  },
+  {
+    "id": "Slot010",
+    "label": "Starter switch (left side)",
+    "isPartOf": "Module004",
+    "ports": ["Node008"]
+  },
+  {
+    "id": "Slot011",
+    "label": "Steering wheel (left side)",
+    "isPartOf": "Module004",
+    "ports": []
+  },
+  {
+    "id": "Slot012",
+    "label": "Starter switch (right side)",
+    "isPartOf": "Module012",
+    "ports": []
+  },
+  {
+    "id": "Slot013",
+    "label": "Steering wheel (right side)",
+    "isPartOf": "Module012",
+    "ports": []
+  }
+]

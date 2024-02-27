@@ -1,0 +1,57 @@
+[
+  {
+    "id": "Function001",
+    "isRepresentedBy": "Slot001",
+    "requiredProperty": null
+  },
+  {
+    "id": "Function002",
+    "isRepresentedBy": "Slot002",
+    "requiredProperty": null
+  },
+  {
+    "id": "Function003",
+    "isRepresentedBy": "Slot003",
+    "requiredProperty": null
+  },
+  {
+    "id": "Function004",
+    "isRepresentedBy": "Slot004",
+    "requiredProperty": null
+  },
+  {
+    "id": "Function005",
+    "isRepresentedBy": "Slot005",
+    "requiredProperty": null
+  },
+  {
+    "id": "Function006",
+    "isRepresentedBy": "Slot006",
+    "requiredProperty": null
+  },
+  {
+    "id": "Function007",
+    "isRepresentedBy": "Slot007",
+    "requiredProperty": null
+  },
+  {
+    "id": "Function008",
+    "isRepresentedBy": "Slot008",
+    "requiredProperty": null
+  },
+  {
+    "id": "Function009",
+    "isRepresentedBy": "Slot009",
+    "requiredProperty": null
+  },
+  {
+    "id": "Function010",
+    "isRepresentedBy": "Slot010",
+    "requiredProperty": null
+  },
+  {
+    "id": "Function011",
+    "isRepresentedBy": "Slot011",
+    "requiredProperty": null
+  }
+]

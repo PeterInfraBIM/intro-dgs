@@ -1,0 +1,22 @@
+[
+  {
+    "id": "Link001",
+    "in": "Node001",
+    "out": "Node002"
+  },
+  {
+    "id": "Link002",
+    "in": "Node003",
+    "out": "Node004"
+  },
+  {
+    "id": "Link003",
+    "in": "Node005",
+    "out": "Node006"
+  },
+  {
+    "id": "Link004",
+    "in": "Node007",
+    "out": "Node008"
+  }
+]

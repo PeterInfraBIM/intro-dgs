@@ -20,7 +20,10 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-webflux")
+	implementation("com.netflix.graphql.dgs:graphql-dgs-spring-boot-starter")
+	implementation(platform("com.netflix.graphql.dgs:graphql-dgs-platform-dependencies:7.6.0"))
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	implementation ("org.json:json:20211205")
 }
 
 tasks.withType<Test> {
@@ -30,4 +33,6 @@ tasks.withType<Test> {
 tasks.generateJava {
 	packageName = "com.example.soundtracks.generated"
 }
+
+
 

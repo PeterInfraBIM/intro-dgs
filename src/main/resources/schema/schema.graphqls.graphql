@@ -1,0 +1,123 @@
+type Query {
+    """Get all slots"""
+    slots: [Slot!]!
+    """Get all modules"""
+    modules: [Module!]!
+    """Get all Selections"""
+    selections: [Selection!]!
+    """Get all Connection links"""
+    links: [Link!]!
+    """Get a slot by ID"""
+    slot(id: ID!): Slot
+    """Get a module by ID"""
+    module(id: ID!): Module
+    """Get a connection link by ID"""
+    link(id: ID!): Link
+}
+
+type Slot {
+    """Slot identifier"""
+    id: ID!
+    """Slot label"""
+    label: String
+    """Is part of module reference"""
+    isPartOfModule: Module
+    """Consists of slots references"""
+    consistsOfSlot: [Slot!]!
+    """Selection reference"""
+    selects: Selection
+    """Selected solution"""
+    selectedModule: Module
+    """Port references"""
+    ports: [Node!]!
+    """Link references"""
+    links: [Link!]!
+    """Function reference"""
+    function: Function
+}
+
+type Module {
+    """Module identifier"""
+    id: ID!
+    """Module label"""
+    label: String
+    """Is part of module references"""
+    isPartOfModule: [Module!]!
+    """Consists of module references"""
+    consistsOfModule: [Module!]!
+    """Consists of slots references"""
+    consistsOfSlot: [Slot!]!
+    """Selection reference"""
+    isSelectedBy: [Selection!]!
+}
+
+"""Selection object between slot and module"""
+type Selection {
+    """Selection identifier"""
+    id: ID!
+    """Selecting slot reference"""
+    isSelectedBy: Slot!
+    """Selected Module reference"""
+    selects: Module
+    """Alternative solutions"""
+    option: [Module!]!
+    """Acceptable alternative solutions"""
+    accepts: [Module!]!
+    """Rejected alternative solutions"""
+    rejects: [Module!]!
+}
+"""Connection link between two nodes"""
+type Link {
+    """Link identifier"""
+    id: ID!
+    """Is part of higher level link"""
+    isPartOfLink: Link
+    """Start port"""
+    inPort: Node!
+    """End port"""
+    outPort: Node!
+    """Start slot"""
+    inSlot: Slot!
+    """End slot"""
+    outSlot: Slot!
+    """Start module"""
+    inModule: Module
+    """End module"""
+    outModule: Module
+}
+
+"""Connectivity node type"""
+type Node {
+    """Node identifier"""
+    id: ID!
+    """Owner slot"""
+    slot: Slot!
+    """Link reference"""
+    link: Link
+}
+
+"""Function type"""
+type Function {
+    """Function identifier"""
+    id: ID!
+    """Is represented by slot reference"""
+    isRepresentedBy: Slot!
+    """Required property reference"""
+    requiredProperty: RequiredProperty
+}
+
+"""Required property type"""
+type RequiredProperty {
+    """Required property identifier"""
+    id: ID!
+    """Property reference"""
+    property: Property!
+}
+
+"""Property type"""
+type Property {
+    """Property identifier"""
+    id: ID!
+    """Property label"""
+    label: String!
+}

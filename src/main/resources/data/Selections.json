@@ -1,0 +1,164 @@
+[
+  {
+    "id": "Selection001",
+    "option": [
+      "Module001"
+    ],
+    "selects": "Module001",
+    "accepts": [
+      "Module001"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot001"
+  },
+  {
+    "id": "Selection002",
+    "option": [
+      "Module002"
+    ],
+    "selects": "Module002",
+    "accepts": [
+      "Module002"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot002"
+  },
+  {
+    "id": "Selection003",
+    "option": [
+      "Module003"
+    ],
+    "selects": "Module003",
+    "accepts": [
+      "Module003"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot003"
+  },
+  {
+    "id": "Selection004",
+    "option": [
+      "Module004",
+      "Module012"
+    ],
+    "selects": "Module004",
+    "accepts": [
+      "Module004",
+      "Module012"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot004"
+  },
+  {
+    "id": "Selection005",
+    "option": [
+      "Module005",
+      "Module013"
+    ],
+    "selects": "Module005",
+    "accepts": [
+      "Module005",
+      "Module013"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot005"
+  },
+  {
+    "id": "Selection006",
+    "option": [
+      "Module006",
+      "Module014"
+    ],
+    "selects": "Module006",
+    "accepts": [
+      "Module006",
+      "Module014"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot006"
+  },
+  {
+    "id": "Selection007",
+    "option": [
+      "Module007"
+    ],
+    "selects": "Module007",
+    "accepts": [
+      "Module007"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot007"
+  },
+  {
+    "id": "Selection008",
+    "option": [
+      "Module008"
+    ],
+    "selects": "Module008",
+    "accepts": [
+      "Module008"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot008"
+  },
+  {
+    "id": "Selection009",
+    "option": [
+      "Module009"
+    ],
+    "selects": "Module009",
+    "accepts": [
+      "Module009"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot009"
+  },
+  {
+    "id": "Selection010",
+    "option": [
+      "Module010"
+    ],
+    "selects": "Module010",
+    "accepts": [
+      "Module010"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot010"
+  },
+  {
+    "id": "Selection011",
+    "option": [
+      "Module011"
+    ],
+    "selects": "Module011",
+    "accepts": [
+      "Module011"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot011"
+  },
+  {
+    "id": "Selection012",
+    "option": [
+      "Module010"
+    ],
+    "selects": "Module010",
+    "accepts": [
+      "Module010"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot012"
+  },
+  {
+    "id": "Selection013",
+    "option": [
+      "Module011"
+    ],
+    "selects": "Module011",
+    "accepts": [
+      "Module011"
+    ],
+    "rejects": [],
+    "isSelectedBy": "Slot013"
+  }
+]

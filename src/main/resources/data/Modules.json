@@ -1,0 +1,58 @@
+[
+  {
+    "id": "Module001",
+    "label": "BMW 3"
+  },
+  {
+    "id": "Module002",
+    "label": "Power train C"
+  },
+  {
+    "id": "Module003",
+    "label": "E-System A"
+  },
+  {
+    "id": "Module004",
+    "label": "Model Q (left side)"
+  },
+  {
+    "id": "Module005",
+    "label": "5 gear"
+  },
+  {
+    "id": "Module006",
+    "label": "petrol 1,8 L"
+  },
+  {
+    "id": "Module007",
+    "label": "Siemens Qm4"
+  },
+  {
+    "id": "Module008",
+    "label": "Varta YTX14"
+  },
+  {
+    "id": "Module009",
+    "label": "Bosch WRI8"
+  },
+  {
+    "id": "Module010",
+    "label": "Switch 1"
+  },
+  {
+    "id": "Module011",
+    "label": "Wheel X"
+  },
+  {
+    "id": "Module012",
+    "label": "Model Q (right side)"
+  },
+  {
+    "id": "Module013",
+    "label": "automatic"
+  },
+  {
+    "id": "Module014",
+    "label": "petrol 2,0 L"
+  }
+]
